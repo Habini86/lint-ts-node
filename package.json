@@ -1,0 +1,30 @@
+{
+  "name": "@habini86/lint-ts-node",
+  "version": "2.0.0",
+  "private": false,
+  "description": "It's the lightest and simplest TypeScript linter for Node.js!",
+  "main": "base.mjs",
+  "license": "MIT",
+  "repository": {
+    "url": "habini86/lint-ts-node"
+  },
+  "peerDependencies": {
+    "typescript": ">=5",
+    "eslint": ">=9"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "eslint": "^9.8.0",
+    "@vitest/eslint-plugin": "^1.1.24",
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "globals": "^15.9.0",
+    "neostandard": "^0.11.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  }
+}
