@@ -1,6 +1,6 @@
 {
   "name": "@habini86/lint-ts-node",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": false,
   "description": "It's the lightest and simplest TypeScript linter for Node.js!",
   "main": "base.mjs",
@@ -18,13 +18,13 @@
     }
   },
   "dependencies": {
-    "eslint": "^9.8.0",
-    "@vitest/eslint-plugin": "^1.1.24",
-    "@eslint/js": "^9.8.0",
+    "eslint": "^9.18.0",
+    "@vitest/eslint-plugin": "^1.1.25",
+    "@eslint/js": "^9.18.0",
     "@types/eslint__js": "^8.42.3",
-    "globals": "^15.9.0",
-    "neostandard": "^0.11.2",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.0.1"
+    "globals": "^15.14.0",
+    "neostandard": "^0.12.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
   }
 }
